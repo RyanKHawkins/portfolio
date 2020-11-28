@@ -2,11 +2,23 @@ body {
     background-color: lightgray;
 }
 
+header {
+    text-align: center
+}
+
 li {
     list-style: none;
 }
 
 li a {
     text-decoration: none;
-    color: darkorange
+    color: darkorange;
+}
+
+footer {
+
+}
+
+.social_medial_links {
+    background: green;
 }
