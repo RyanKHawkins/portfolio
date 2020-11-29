@@ -15,6 +15,12 @@ li a {
     color: darkorange;
 }
 
+li a:hover {
+    color: black;
+    text-shadow: gray 1px 1px 5px,
+                  gray -1px -1px 5px;
+}
+
 footer {
 
 }
