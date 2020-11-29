@@ -19,6 +19,7 @@ footer {
 
 }
 
-.social_medial_links {
-    background: green;
+
+.highlighted_link {
+    color: black;
 }
