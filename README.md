@@ -7,3 +7,4 @@ Personal Portfolio
 - Javascript
 - Python
 - HTML/CSS
+- *C#* (soon)
