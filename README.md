@@ -8,3 +8,8 @@ Personal Portfolio
 - Python
 - HTML/CSS
 - *C#* (soon)
+
+##### Career/History
+- Started learning Python mid-2019.
+- Decided I didn't want to do data-science.
+- Currently considering app or game development.
