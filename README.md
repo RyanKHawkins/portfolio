@@ -13,3 +13,10 @@ Personal Portfolio
 - Started learning Python mid-2019.
 - Decided I didn't want to do data-science.
 - Currently considering app or game development.
+
+
+##### Certifications
+- Sololearn
+    - [to be added]
+- FreeCodeCamp
+    - [to be added]
