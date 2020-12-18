@@ -20,3 +20,6 @@ Personal Portfolio
     - [to be added]
 - FreeCodeCamp
     - [to be added]
+
+#### Social Accounts
+- [Twitter](https://twitter.com/F5DevLife)
