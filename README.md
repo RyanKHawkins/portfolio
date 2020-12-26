@@ -6,7 +6,8 @@ Personal Portfolio
 ##### Languages
 - Javascript
 - Python
-- HTML/CSS
+- HTML
+- CSS (_sort of_)
 - *C#* (soon)
 
 ##### Career/History
