@@ -16,17 +16,18 @@ li {
 
 li a {
     text-decoration: none;
-    color: darkorange;
+    color: black;
 }
 
 li a:hover {
     color: black;
-    text-shadow: gray 1px 1px 5px,
+    text-shadow: darkorange 1px 1px 5px,
                   gray -1px -1px 5px;
 }
 
 footer {
-
+    background-color: darkgray;
+    padding: 15px;
 }
 
 
