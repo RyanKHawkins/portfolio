@@ -3,11 +3,15 @@ body {
 }
 
 header {
-    //text-align: center
+    text-align: center;
+}
+
+header h1 {
+    color: darkorange
 }
 
 .nav-links {
-    
+    font-style: italic
 }
 
 li {
