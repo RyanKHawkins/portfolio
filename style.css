@@ -10,6 +10,7 @@ header {
 header, footer {
     height: 150px;
     background-color: darkgray;
+    border: 2px solid gray;
 }
 
 header h1 {
@@ -18,7 +19,12 @@ header h1 {
 }
 
 .nav-links {
-    font-style: italic
+    font-style: italic;
+    color: gray;
+}
+
+.nav-links:hover {
+    color: black;
 }
 
 li {
@@ -32,6 +38,7 @@ li a {
 
 li img {
     width: 300px;
+    border: 2px solid gray;
 }
 
 li a:hover {
