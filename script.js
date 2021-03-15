@@ -1,17 +1,19 @@
 var subtitles = document.querySelectorAll(".nav-links")
+subtitles = Array.from(subtitles)
 var socialMediaLinks = document.querySelectorAll("a");
 
 var links = Array.from(socialMediaLinks)
 console.log(links[0].innerHTML)
 
 
+// subtitles.forEach((item) => {
+//     item.classList.toggle("shadowed")
+// })
+
 subtitles.forEach((item) => {
-    item.classList.toggle("highlighted")
-})
-
-
-
-
+    console.log(item.textContent)
+}
+)
 
 function toggleClassByInterval(item, className, interval) {
 

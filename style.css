@@ -22,7 +22,7 @@ header h1 {
 
 .nav-links {
     font-style: italic;
-    color: gray;
+    //color: gray;
 }
 
 .nav-links:hover {
@@ -54,11 +54,19 @@ footer {
 }
 
 
-.highlighted {
-    color: black;
+.shadowed {
+    text-shadow: darkorange 1px 1px 5px,
+                darkorange -1px -1px 5px;
 }
 
 p::selection {
     color: lightgray;
     background-color: gray;
+}
+
+.certifications li {
+}
+
+.certifications a {
+
 }
