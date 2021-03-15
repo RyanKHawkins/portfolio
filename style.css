@@ -8,7 +8,7 @@ header {
 }
 
 header, footer {
-    height: 150px;
+    height: 300px;
     background-color: darkgray;
     border: 2px solid gray;
 }
@@ -20,14 +20,16 @@ header h1 {
                 gray -1px -1px 5px;
 }
 
-.nav-links {
+.subtitles {
     font-style: italic;
     //color: gray;
 }
 
-.nav-links:hover {
+.subtitles:hover {
     color: black;
 }
+
+
 
 li {
     list-style: none;
