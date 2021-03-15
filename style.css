@@ -14,8 +14,10 @@ header, footer {
 }
 
 header h1 {
-    //background-image: linear-gradient(darkgray, darkgray, darkgray, gray, darkgray, darkgray, darkgray);
+
     color: darkorange;
+    text-shadow: black 1px 1px 5px,
+                gray -1px -1px 5px;
 }
 
 .nav-links {
@@ -52,6 +54,11 @@ footer {
 }
 
 
-.highlighted_link {
+.highlighted {
     color: black;
+}
+
+p::selection {
+    color: lightgray;
+    background-color: gray;
 }

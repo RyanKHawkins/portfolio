@@ -4,9 +4,25 @@ var socialMediaLinks = document.querySelectorAll("a");
 var links = Array.from(socialMediaLinks)
 console.log(links[0].innerHTML)
 
+
+subtitles.forEach((item) => {
+    item.classList.toggle("highlighted")
+})
+
+
+
+
+
+function toggleClassByInterval(item, className, interval) {
+
+}
+
+
+
 // setInterval(() => {
-//     links.forEach((link) => { link.classList.toggle("highlighted_link") })
+//     links.forEach((link) => { link.classList.toggle("highlighted") })
 // }, 1000)
+
 
 // Test to see Github connection with Visual Studio
 // Another test
