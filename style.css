@@ -11,18 +11,21 @@ header, footer {
     height: 200px;
     background-color: darkgray;
     border: 2px solid gray;
+    transition: .25s
 }
 
 header img {
     height: 150px;
     border-radius: 50%;
     border: 2.5px solid darkorange;
+    transition: .25s
 }
 
 header img:hover {
     border: 2.5px solid gray;
     box-shadow: darkorange 1px 1px 5px,
                 darkorange -1px -1px 5px;
+    transition: .25s
 }
 
 header h1 {
@@ -41,7 +44,9 @@ header h1 {
     color: black;
 }
 
-
+nav a {
+    cursor: pointer;
+}
 
 li {
     list-style: none;
