@@ -8,9 +8,15 @@ header {
 }
 
 header, footer {
-    height: 300px;
+    height: 200px;
     background-color: darkgray;
     border: 2px solid gray;
+}
+
+header img {
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid darkorange;
 }
 
 header h1 {
