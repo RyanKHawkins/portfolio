@@ -15,16 +15,16 @@ header, footer {
 }
 
 header img {
-    height: 150px;
+    height: 200px;
     border-radius: 50%;
-    border: 2.5px solid darkorange;
+    border: 5px solid darkorange;
     transition: .25s
 }
 
 header img:hover {
-    border: 2.5px solid gray;
-    box-shadow: darkorange 1px 1px 5px,
-                darkorange -1px -1px 5px;
+    border: 5px solid gray;
+    box-shadow: darkorange 0 0 10px,
+                darkorange 0 0 10px;
     transition: .5s
 }
 
