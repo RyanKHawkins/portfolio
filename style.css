@@ -42,6 +42,7 @@ header h1 {
 
 .subtitles:hover {
     color: black;
+    font-weight: bold;
 }
 
 nav a {
