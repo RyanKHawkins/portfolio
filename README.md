@@ -7,12 +7,16 @@ Personal Portfolio
 - Javascript
 - Python
 - HTML
-- CSS (_sort of_)
-- *C#* (soon)
 
-##### Career/History
+##### Languages to Learn
+- CSS
+- C#
+
+##### Career/History Outline
 - Started learning Python mid-2019.
 - Decided I didn't want to do data-science.
+
+- Currently moderating for 3 computer programming streams on Twitch.
 - Currently considering app or game development.
 
 
@@ -24,3 +28,4 @@ Personal Portfolio
 
 #### Social Accounts
 - [Twitter](https://twitter.com/F5DevLife)
+- [Twitch]()
