@@ -64,6 +64,10 @@ li img {
     border: 2px solid gray;
 }
 
+li img:hover {
+    transform: scale(1.25);
+}
+
 li a:hover {
     color: black;
     text-shadow: darkorange 1px 1px 5px,
@@ -73,7 +77,6 @@ li a:hover {
 footer {
     padding: 5px;
 }
-
 
 .shadowed {
     text-shadow: darkorange 1px 1px 5px,
