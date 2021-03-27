@@ -2,16 +2,17 @@ body {
     background-color: lightgray;
 }
 
-header {
-    text-align: center;
-    //background-image: linear-gradient(darkgray, gray)
-}
-
 header, footer {
     height: 200px;
     background-color: darkgray;
     border: 2px solid gray;
     transition: .25s
+}
+
+header {
+    text-align: center;
+    border-bottom: 5px double darkorange;
+    //background-image: linear-gradient(darkgray, gray)
 }
 
 header img {
@@ -22,10 +23,10 @@ header img {
 }
 
 header img:hover {
-    border: 5px solid gray;
+    //border: 5px solid gray;
     box-shadow: darkorange 0 0 10px,
                 darkorange 0 0 10px;
-    transition: .5s
+    transition: .25s
 }
 
 header h1 {

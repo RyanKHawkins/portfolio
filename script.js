@@ -21,7 +21,7 @@ heroImg.addEventListener("mouseout", () => {
     // subtitles.forEach((subT) => {
     //     subT.style.color = "black";    
     // });
-    document.querySelector("header").style.borderBottomColor = "gray"
+    //document.querySelector("header").style.borderBottomColor = "gray"
 })
 
 
