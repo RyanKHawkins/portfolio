@@ -40,7 +40,7 @@ header h1 {
 
 .subtitles {
     font-style: italic;
-    //color: gray;
+    color: white;
 }
 
 .subtitles:hover {

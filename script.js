@@ -1,9 +1,19 @@
-var subtitles = document.querySelectorAll(".subtitles")
-subtitles = Array.from(subtitles)
+var subtitles = ["software developer", "game designer", "app programmer"]
+var subtitle = document.getElementById("subtitle")
+
 var socialMediaLinks = document.querySelectorAll("a");
 
 var links = Array.from(socialMediaLinks)
 console.log(links[0].innerHTML)
+
+var i = 0
+setInterval (
+() => {
+    subtitle.innerText = subtitles[i % subtitles.length]
+    i++
+}, 1500
+)
+
 
 
 var heroImg = document.querySelector("#hero_img")
@@ -24,21 +34,9 @@ heroImg.addEventListener("mouseout", () => {
     //document.querySelector("header").style.borderBottomColor = "gray"
 })
 
-
-// subtitles.forEach((item) => {
-//     item.classList.toggle("shadowed")
-// })
-
-subtitles.forEach((item) => {
-    console.log(item.textContent)
-}
-)
-
 function toggleClassByInterval(item, className, interval) {
 
 }
-
-
 
 // setInterval(() => {
 //     links.forEach((link) => { link.classList.toggle("highlighted") })
