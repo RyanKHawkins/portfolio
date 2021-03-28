@@ -11,6 +11,8 @@ header, footer {
 
 header {
     text-align: center;
+    border-image: linear-gradient(to right,darkorange, darkorange, black, darkorange,darkorange) 5;
+    border-top: 5px;
     border-bottom: 5px double darkorange;
     //background-image: linear-gradient(darkgray, gray)
 }
@@ -65,7 +67,7 @@ li img {
 }
 
 li img:hover {
-    transform: scale(1.25);
+    width:  500px;
 }
 
 li a:hover {
