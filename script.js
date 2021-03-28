@@ -7,7 +7,7 @@ var links = Array.from(socialMediaLinks)
 console.log(links[0].innerHTML)
 
 
-
+/*
 var i = 0
 setInterval (
 () => {
@@ -15,7 +15,7 @@ setInterval (
     i++
 }, 1500
 )
-
+*/
 
 
 var heroImg = document.querySelector("#hero_img")
