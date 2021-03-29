@@ -21,7 +21,10 @@ header img {
     height: 200px;
     border-radius: 50%;
     border: 5px solid darkorange;
-    transition: .25s
+    transition: .5s;
+    padding: none;
+
+
 }
 
 header img:hover {
@@ -36,11 +39,14 @@ header h1 {
     color: darkorange;
     text-shadow: black 1px 1px 5px,
                 gray -1px -1px 5px;
+
 }
 
 .subtitles {
+    margin: 1px auto;
     font-style: italic;
     color: white;
+
 }
 
 .subtitles:hover {

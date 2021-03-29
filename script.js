@@ -1,4 +1,4 @@
-var subtitles = ["software developer", "game designer", "app programmer"]
+var subtitles = ["software developer", "game designer", "app programmer", "webpage designer"]
 var subtitle = document.getElementById("subtitle")
 
 var socialMediaLinks = document.querySelectorAll("a");
@@ -24,7 +24,7 @@ heroImg.addEventListener("mouseover", () => {
     // subtitles.forEach((subT) => {
     //     subT.style.color = "darkorange"
     // });
-    document.querySelector("header").style.borderBottomColor = "darkorange"
+    // document.querySelector("header").style.borderBottomColor = "darkorange"
 })
 
 
