@@ -24,8 +24,6 @@ header img {
     border: 5px solid darkorange;
     transition: .5s;
     padding: none;
-
-
 }
 
 header img:hover {
@@ -36,11 +34,9 @@ header img:hover {
 }
 
 header h1 {
-
     color: darkorange;
     text-shadow: black 1px 1px 5px,
                 gray -1px -1px 5px;
-
 }
 
 .subtitles {
@@ -48,7 +44,6 @@ header h1 {
     font-style: italic;
     color: white;
     background-color: gray;
-
 }
 
 .subtitles:hover {
@@ -97,4 +92,3 @@ p::selection {
     color: lightgray;
     background-color: gray;
 }
-
