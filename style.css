@@ -14,6 +14,7 @@ header {
     border-image: linear-gradient(to right,darkorange, darkorange, black, darkorange,darkorange) 5;
     border-top: 5px;
     border-bottom: 5px double darkorange;
+    text-align: center;
     //background-image: linear-gradient(darkgray, gray)
 }
 
@@ -43,7 +44,7 @@ header h1 {
 }
 
 .subtitles {
-    margin: 1px auto;
+    margin: auto;
     font-style: italic;
     color: white;
 
