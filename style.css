@@ -53,6 +53,7 @@ header h1 {
 
 nav a {
     cursor: pointer;
+    background-color: white;
 }
 
 li {
