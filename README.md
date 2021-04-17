@@ -8,9 +8,10 @@ Personal Portfolio
 - Python
 - HTML
 
-##### Languages to Learn
+##### Languages and Frameworks to Learn
 - CSS
 - C#
+- React
 
 ##### Career/History Outline
 - Started learning Python mid-2019.
