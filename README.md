@@ -11,13 +11,14 @@ Personal Portfolio
 ##### Languages and Frameworks to Learn
 - CSS
 - C#
-- React
+- React JS
 
 ##### Career/History Outline
 - Started learning Python mid-2019.
 - Decided I didn't want to do data-science.
 
 - Currently moderating for 3 computer programming streams on Twitch.
+    - "Mod with the Dad Bod"
 - Currently considering app or game development.
 
 
