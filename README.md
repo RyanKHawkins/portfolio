@@ -1,7 +1,7 @@
 # F5DevLife.github.io
 Personal Portfolio
 
-##### I am new to programming, but I'm already in love with the creation and logical aspects of it. It's magic and science.
+##### I am in love with the creation and logical aspects of software and game development. It's magic and science.
 
 ##### Languages
 - Javascript
