@@ -17,8 +17,9 @@ Personal Portfolio
 - Started learning Python mid-2019.
 - Decided I didn't want to do data-science.
 
-- Currently moderating for 3 computer programming streams on Twitch.
+- I am a moderator for 4 computer programming streams on Twitch.
     - "Mod with the Dad Bod"
+    - I enjoy volunteering to help those who inspire me.
 - Currently considering app or game development.
 
 
