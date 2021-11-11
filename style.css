@@ -1,5 +1,7 @@
 body {
     background-color: lightgray;
+    margin: 0;
+    padding: 0;
 }
 
 header, footer {
@@ -10,7 +12,10 @@ header, footer {
 }
 
 header {
-    text-align: center;
+    position:  absolute;
+    top: 0;
+    width: 100%;
+    //text-align: center;
     border-image: linear-gradient(to right,darkorange, darkorange, black, darkorange,darkorange) 5;
     border-top: 5px;
     border-bottom: 5px double darkorange;
@@ -21,13 +26,12 @@ header {
 header img {
     height: 200px;
     border-radius: 50%;
-    border: 5px solid darkorange;
+    border: 4px solid darkorange;
     transition: .5s;
-    padding: none;
 }
 
 header img:hover {
-    //border: 5px solid gray;
+    border-color: gray;
     box-shadow: darkorange 0 0 10px,
                 darkorange 0 0 10px;
     transition: .25s
@@ -44,20 +48,20 @@ main {
 }
 
 .subtitles {
-    margin: auto;
     font-style: italic;
     color: white;
     background-color: gray;
 }
 
 .subtitles:hover {
-    color: black;
+    color: orange;
     font-weight: bold;
 }
 
 nav a {
     cursor: pointer;
-    background-color: white;
+    display: flex;
+    //flex-direction: column;
 }
 
 li {
@@ -75,11 +79,13 @@ li img {
 }
 
 li img:hover {
-    width:  350px;
+    border-color: black;
 }
 
 li a:hover {
     color: black;
+    letter-spacing: 2px;
+    text-transform: capitalize;
     text-shadow: darkorange 1px 1px 5px,
                   gray -1px -1px 5px;
 }
