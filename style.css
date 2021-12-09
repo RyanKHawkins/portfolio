@@ -1,5 +1,7 @@
 body {
-    background-color: lightgray;
+    background-image: url(background_images/tahiro-achoub-gXQEH1tia4U-unsplash.jpg);
+    background-repeat: no-repeat;
+    //background-color: lightgray;
     margin: 0;
     padding: 0;
 }
