@@ -20,9 +20,9 @@ header {
     top: 0;
     width: 100%;
     //text-align: center;
-    border-image: linear-gradient(to right,darkorange, darkorange, black, darkorange,darkorange) 5;
-    border-top: 5px;
-    border-bottom: 5px double darkorange;
+    //border-image: linear-gradient(to right,darkorange, darkorange, black, darkorange,darkorange);
+    //border-top: 5px;
+    border-bottom: 4px double darkorange;
     text-align: center;
     background-image: linear-gradient(darkgray, gray)
 }
@@ -48,13 +48,19 @@ header h1 {
 }
 
 main {
-    margin-top: 200px
+    margin-top: 200px;
+    padding: 65px 20px;
+    //margin: 5px;
+    background-color: rgba(200, 200, 200, .25)
 }
 
 .subtitles {
+    position: absolute;
+    bottom:  -25px;
+    left: 8%;
     font-style: italic;
     color: white;
-    background-color: gray;
+    //background-color: gray;
 }
 
 .subtitles:hover {
