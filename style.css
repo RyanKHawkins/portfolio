@@ -27,9 +27,9 @@ header {
 }
 
 header img {
+    right: 0;
     height: 200px;
     border-radius: 50%;
-    //border: 4px solid darkorange;
     transition: .5s;
 }
 
@@ -71,8 +71,11 @@ main {
     opacity: 1;
 }
 
-nav a {
+nav ul {
+    position: fixed;
     cursor: pointer;
+    top: 0;
+    left: 0;
     //display: flex;
     //flex-direction: column;
 }
@@ -95,12 +98,10 @@ li img {
 
 li img:hover {
     border-color: black;
-    transform: scale(1.025)
 }
 
 li a:hover {
     color: black;
-    letter-spacing: 1.025px;
     text-transform: capitalize;
     text-shadow: darkorange 1px 1px 5px,
                   gray -1px -1px 5px;
@@ -110,6 +111,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 5px;
+    border-top: 4px double gray;
 }
 
 footer a {
@@ -145,7 +147,11 @@ p::selection {
         width: 100%;
         top: 100px;
     }
-
+    nav ul {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%)
+    }
     #subtitle {
         display: none;
     }
