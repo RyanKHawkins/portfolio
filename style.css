@@ -72,12 +72,12 @@ main {
 }
 
 nav ul {
-    position: fixed;
+    display: flex;
     cursor: pointer;
     top: 0;
     left: 0;
     //display: flex;
-    //flex-direction: column;
+    flex-direction: row;
 }
 
 
@@ -89,6 +89,7 @@ li {
 li a {
     text-decoration: none;
     color: black;
+    padding: 0 1rem;
 }
 
 li img {
@@ -107,11 +108,13 @@ li a:hover {
                   gray -1px -1px 5px;
 }
 
-footer {
+footer ul{
     display: flex;
     flex-direction: row;
     padding: 5px;
     border-top: 4px double gray;
+    align-items: space-around;
+    flex-wrap: wrap;
 }
 
 footer a {
@@ -148,9 +151,9 @@ p::selection {
         top: 100px;
     }
     nav ul {
-        position: fixed;
-        left: 50%;
-        transform: translateX(-50%)
+        flex-direction: column;
+        
+        align-items: center;
     }
     #subtitle {
         display: none;
@@ -158,5 +161,12 @@ p::selection {
     div h3 {
         text-align: center;
         background: gray;
+    }
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    li a {
+        
     }
 }
