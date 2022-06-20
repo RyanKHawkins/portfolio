@@ -10,14 +10,13 @@ body {
 }
 
 header, footer {
-    height: 200px;
     background-color: darkgray;
     border: 2px solid gray;
     transition: .25s
 }
 
 header {
-    position:  absolute;
+
     top: 0;
     width: 100%;
     text-align: center;
@@ -28,7 +27,7 @@ header {
 }
 
 header img {
-    right: 0;
+    right: 10px;
     height: 200px;
     border-radius: 50%;
     transition: .5s;
@@ -43,22 +42,24 @@ header img:hover {
 
 header h1 {
     position: absolute;
-    bottom: 5px;
+    left: 10%;
     color: darkorange;
     text-shadow: black 1px 1px 5px,
                 gray -1px -1px 5px;
 }
 
 main {
-    margin-top: 200px;
+    margin-top: 0px;
     padding: 65px 20px;
     background-color: rgba(200, 200, 200, .25)
 }
 
 .subtitles {
+    display: flex;
     position: absolute;
-    bottom:  -25px;
-    left: 4%;
+    top: 100px;
+    left: 5%;
+    justify-content: space-around;
     font-style: italic;
     font-size: 24px;
     color: black;
@@ -145,20 +146,21 @@ p::selection {
     header {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     header h1 {
+        top: 5rem;
         width: 100%;
-        top: 100px;
     }
     nav ul {
         flex-direction: column;
-        
         align-items: center;
     }
     #subtitle {
         display: none;
     }
     div h3 {
+        color: lightgray;
         text-align: center;
         background: gray;
     }
