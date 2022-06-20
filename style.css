@@ -1,11 +1,12 @@
 body {
-    background-image: url(background_images/davide-colonna-VtJ8nLsApWA-unsplash_large.jpg);
+    /*background-image: url(background_images/davide-colonna-VtJ8nLsApWA-unsplash_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    */
     //background-color: lightgray;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 
 header, footer {
@@ -19,8 +20,8 @@ header {
     position:  absolute;
     top: 0;
     width: 100%;
-    //text-align: center;
-    //border-top: 5px;
+    text-align: center;
+    border-top: 5px;
     border-bottom: 4px double darkorange;
     text-align: center;
     background-image: linear-gradient(darkgray, gray)
@@ -146,7 +147,6 @@ p::selection {
         justify-content: center;
     }
     header h1 {
-        position: fixed;
         width: 100%;
         top: 100px;
     }
