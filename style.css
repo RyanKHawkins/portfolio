@@ -82,7 +82,11 @@ nav ul {
     flex-direction: row;
 }
 
-
+#projects {
+    background: rgba(150, 150, 150, .5);
+    width:  100%;
+    padding: 0 0 5px 0;
+}
 
 li {
     list-style: none;
@@ -96,7 +100,7 @@ li a {
 
 li img {
     width: 200px;
-    border: 2px solid gray;
+    border: 2px solid darkorange;
 }
 
 li img:hover {
@@ -114,7 +118,7 @@ footer ul{
     display: flex;
     flex-direction: row;
     padding: 5px;
-    border-top: 4px double gray;
+    border-top: 4px double darkorange;
     align-items: space-around;
     flex-wrap: wrap;
 }
