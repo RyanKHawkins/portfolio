@@ -1,9 +1,5 @@
 body {
-    /*background-image: url(background_images/davide-colonna-VtJ8nLsApWA-unsplash_large.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    */
-    //background-color: lightgray;
+    background-color: lightgray;
     margin: 0;
     padding: 0;
     color: black;
@@ -78,14 +74,16 @@ nav ul {
     cursor: pointer;
     top: 0;
     left: 0;
-    //display: flex;
     flex-direction: row;
 }
 
 #projects {
     background: rgba(150, 150, 150, .5);
     width:  100%;
-    padding: 0 0 5px 0;
+    padding: 2px;
+    border-top: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
+
 }
 
 li {
