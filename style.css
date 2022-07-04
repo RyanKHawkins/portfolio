@@ -82,7 +82,7 @@ nav ul {
 
 #projects {
     background: rgba(150, 150, 150, .5);
-    width:  100%;
+/*     width:  100%; */
     border-top: 2px solid darkorange;
     border-bottom: 2px solid darkorange;
 }
