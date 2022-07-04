@@ -86,9 +86,15 @@ nav ul {
     border-top: 2px solid darkorange;
     border-bottom: 2px solid darkorange;
 }
+
+#certifications li:hover {
+    transform: scale(2)
+}
+
 ul {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 li h4 {
