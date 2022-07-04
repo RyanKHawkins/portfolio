@@ -46,8 +46,12 @@ header h1 {
 
 main {
     margin-top: 0px;
-    padding: 65px 20px;
+    padding: 2.5rem 0;
     background-color: rgba(200, 200, 200, .25)
+}
+
+p, h3 {
+    padding: 0 2rem;
 }
 
 .subtitles {
@@ -55,7 +59,6 @@ main {
     position: absolute;
     top: 100px;
     left: 5%;
-    justify-content: space-around;
     font-style: italic;
     font-size: 24px;
     color: black;
@@ -80,12 +83,12 @@ nav ul {
 #projects {
     background: rgba(150, 150, 150, .5);
     width:  100%;
-    padding: 2px;
     border-top: 2px solid darkorange;
     border-bottom: 2px solid darkorange;
 }
 ul {
     display: flex;
+    justify-content: space-evenly;
 }
 
 li h4 {
@@ -146,7 +149,9 @@ p::selection {
     background-color: gray;
 }
 
-
+#copyright a {
+    font-weight: bold;
+}
 
 @media screen and (max-width: 450px) {
     #hero_img {
@@ -158,8 +163,12 @@ p::selection {
         flex-direction: column;
     }
     header h1 {
-        top: 5rem;
+        top: 10rem;
         width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
     }
 
     ul {
