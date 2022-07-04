@@ -153,7 +153,7 @@ p::selection {
     font-weight: bold;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     #hero_img {
         display: none;
     }
