@@ -88,7 +88,7 @@ nav ul {
 }
 
 #certifications li:hover {
-    transform: scale(2)
+    transform: scale(1.1)
 }
 
 ul {
@@ -113,7 +113,7 @@ li a {
 }
 
 li img {
-    width: 200px;
+    width: 350px;
     border: 2px solid darkorange;
 }
 
