@@ -6,7 +6,7 @@ Personal Portfolio
 ##### Languages
 - Javascript
 - Python
-- HTML
+- HTML/CSS
 
 ##### Languages and Frameworks to Learn
 - CSS
