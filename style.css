@@ -114,7 +114,8 @@ li a {
 }
 
 li img {
-    width: 350px;
+    width: 300px;
+    max-width: 90%;
     border: 2px solid darkorange;
 }
 
