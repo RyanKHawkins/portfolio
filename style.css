@@ -3,13 +3,18 @@ body {
     margin: 0;
     padding: 0;
     color: black;
+    //width: 100vw;
+}
+
+html {
     width: 100vw;
+    overflow-x: hidden;
 }
 
 header, footer {
     background-color: darkgray;
     border: 2px solid gray;
-    transition: .25s
+    transition: .25s;
 }
 
 header {
@@ -96,6 +101,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 0;
 }
 
 li h4 {
@@ -110,7 +116,6 @@ li {
 li a {
     text-decoration: none;
     color: black;
-    padding: 0 1rem;
 }
 
 li img {
@@ -129,6 +134,7 @@ li a:hover {
     text-shadow: darkorange 1px 1px 5px,
                   gray -1px -1px 5px;
 }
+
 
 footer ul{
     display: flex;
@@ -172,6 +178,7 @@ p::selection {
     }
     header h1 {
         top: 10rem;
+        left: 0;
         width: 100%;
     }
 
@@ -182,6 +189,7 @@ p::selection {
     ul {
         flex-direction: column;
         align-items: center;
+        wrap: nowrap
     }
     #subtitle {
         display: none;
