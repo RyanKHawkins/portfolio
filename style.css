@@ -58,8 +58,8 @@ p, h3 {
 .subtitles {
     display: flex;
     position: absolute;
-    top: 100px;
-    left: 5%;
+    top: 50px;
+    left: 10%;
     font-style: italic;
     font-size: 24px;
     color: black;
