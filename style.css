@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: black;
+    width: 100vw;
 }
 
 header, footer {
@@ -14,7 +15,7 @@ header, footer {
 header {
 
     top: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     border-top: 5px;
     border-bottom: 4px double darkorange;
