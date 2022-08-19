@@ -163,7 +163,7 @@ p::selection {
     background-color: gray;
 }
 
-#copyright a {
+#copyright a, #resume {
     font-weight: bold;
 }
 
