@@ -125,7 +125,8 @@ li a {
 
 li img {
     width: 300px;
-    max-width: 90%;
+    max-width: 80%;
+    max-height: 80%;
     border: 2px solid darkorange;
 }
 
