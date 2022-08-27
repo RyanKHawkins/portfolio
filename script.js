@@ -1,4 +1,4 @@
-var subtitles = ["software developer", "app programmer", "webpage designer", "dad", "veteran"]
+var subtitles = ["software developer", "app programmer", "webpage designer", "dad", "veteran", "blogger"]
 var subtitle = document.getElementById("subtitle")
 
 var socialMediaLinks = document.querySelectorAll("a");

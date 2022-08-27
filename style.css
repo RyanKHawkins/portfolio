@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: lightgray;
     margin: 0;
     padding: 0;
     color: black;
     //width: 100vw;
+    box-sizing: border-box;
 }
 
 html {
