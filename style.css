@@ -169,7 +169,7 @@ p::selection {
     background-color: gray;
 }
 
-#copyright a, #resume {
+#email a, #resume {
     font-weight: bold;
 }
 
