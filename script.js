@@ -33,3 +33,33 @@ heroImg.addEventListener("mouseout", () => {
 function toggleClassByInterval(item, className, interval) {
 
 }
+
+/*---------------------*/
+// CodeWars score reveal
+let codewars = document.getElementById("codeWars")
+codewars.addEventListener("mouseover", displayCodeWarsScore)
+codewars.addEventListener("mouseout", resetMessage)
+
+function displayCodeWarsScore() {
+
+    let user = "RyanKHawkins"
+    const url = `https://www.codewars.com/api/v1/users/${user}`
+
+    fetch(url)
+        .then(res => res.json()) // parse response as JSON
+        .then(data => {
+            let rank = data.ranks.overall.name.toUpperCase()
+            let honorScore = data.honor
+            codewars.innerText = `${rank} - ${honorScore}`
+            console.log(data.honor)
+    })
+    .catch(err => {
+        console.log(`error ${err}`)
+    });
+
+}
+
+function resetMessage() {
+    codewars.innerText = "CodeWars"
+}
+/*---------------------*/
