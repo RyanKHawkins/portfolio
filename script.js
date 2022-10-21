@@ -63,3 +63,17 @@ function resetMessage() {
     codewars.innerText = "CodeWars"
 }
 /*---------------------*/
+
+const textToExpand = Array.from(document.querySelectorAll(".expand"))
+textToExpand.forEach(el => el.addEventListener("mouseover", expandTextOnHover))
+
+function expandTextOnHover(text) {
+    const originalText = text.target.innerText
+    text.target.innerText = "R  K  H"//text.target.innerText.split(" ").join(" | ")
+    console.log(`expanded ${originalText}`)
+    text.target.removeEventListener("mouseover", expandTextOnHover)
+    setTimeout(() => {
+        text.target.innerText = originalText
+        text.target.addEventListener("mouseover", expandTextOnHover)
+    }, 1000)
+}
