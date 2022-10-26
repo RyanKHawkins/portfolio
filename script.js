@@ -77,3 +77,14 @@ function expandTextOnHover(text) {
         text.target.addEventListener("mouseover", expandTextOnHover)
     }, 1000)
 }
+
+// Turns the tab title into a marquee
+let titleArr = ["Ryan K. Hawkins", "Ryan K. Hawkins", "Hire Ryan", "Hire Ryan!", "Hire Ryan", "Hire Ryan!!"]
+let j = 0
+setInterval(
+    () => {
+        document.title = titleArr[j % titleArr.length]
+        j++
+        console.log(`Title:  ${document.title}`)
+    }, 750
+)
