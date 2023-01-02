@@ -85,6 +85,5 @@ setInterval(
     () => {
         document.title = titleArr[j % titleArr.length]
         j++
-        console.log(`Title:  ${document.title}`)
     }, 750
 )
