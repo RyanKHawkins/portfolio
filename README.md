@@ -17,7 +17,7 @@ Personal Portfolio
 - Started learning Python mid-2019.
 - Decided I didn't want to do data-science.
 
-- I am a moderator for 4 computer programming streams on Twitch.
+- I am a moderator for several software development streams on [Twitch](https://www.twitch.tv/ryankhawkins).
     - "Mod with the Dad Bod"
     - I enjoy volunteering to help those who inspire me.
 - Currently considering app or game development.
