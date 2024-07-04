@@ -1,12 +1,12 @@
-var subtitles = ["software developer", "app programmer", "webpage designer", "dad", "veteran", "blogger"]
-var subtitle = document.getElementById("subtitle")
+const subtitles = ["software developer", "app programmer", "webpage designer", "dad", "veteran", "blogger"]
+const subtitle = document.getElementById("subtitle")
 
-var socialMediaLinks = document.querySelectorAll("a");
+const socialMediaLinks = document.querySelectorAll("a");
 
-var links = Array.from(socialMediaLinks)
-console.log(links[0].innerHTML)
+let links = Array.from(socialMediaLinks)
+// console.log(links[0].innerHTML)
 
-var i = 0
+let i = 0
 setInterval(
     () => {
         subtitle.innerText = subtitles[i % subtitles.length]
@@ -14,7 +14,7 @@ setInterval(
     }, 1500
 )
 
-var heroImg = document.querySelector("#hero_img")
+let heroImg = document.querySelector("#hero_img")
 
 heroImg.addEventListener("mouseover", () => {
     // subtitles.forEach((subT) => {
